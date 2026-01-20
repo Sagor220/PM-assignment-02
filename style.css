@@ -1,0 +1,168 @@
+body {
+    background: #1a0b2e;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1a0b2e;
+}
+.links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.links ul li {
+    list-style: none;
+}
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    background: url("./assets/hero-bg.png");
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 0 200px 0 200px;
+}
+.mic-bg {
+    background: url("./assets/hero-circle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    padding: 30px;
+}
+.mic-bg img {
+    height: 60px;
+    width: 40px;
+}
+.new {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    background: #00ff88;
+    border-radius: 10px;
+    border: none;
+    padding: 3px 6px;
+    font-weight: bold;
+}
+.podcast {
+    text-align: center;
+    background: #1a0b2e;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 200px 0 200px;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 200px 0 200px;
+}
+.box {
+    text-align: center;
+}
+.box h1 {
+    font-size: 50px;
+    color: #00ff88;
+    font-weight: bolder;
+}
+.box-1 {
+    grid-area: div1;
+}
+.box-2 {
+    grid-area: div2;
+    background: tomato;
+}
+.box-3 {
+    grid-area: div3;
+}
+.box-4 {
+    grid-area: div4;
+}
+.box-5 {
+    grid-area: div5;
+}
+.layer {
+    display: grid;
+    grid-template-areas:
+        "div1 div2 div2"
+        "div1 div3 div3"
+        "div4 div4 div5";
+    gap: 40px;
+}
+.layer div {
+    width: 100%;
+    background: #351165;
+    padding: 10px;
+    border-radius: 10px;
+}
+.episodes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 400px;
+    margin: 20px;
+}
+.episodes div {
+    height: 100%;
+    width: 100%;
+    background: #351165;
+    border-radius: 10px;
+    padding: 10px;
+}
+.episodes div p img {
+    position: relative;
+    top: 3px;
+}
+.heading {
+    text-align: center;
+}
+.host {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+footer {
+    text-align: center;
+    background: url("./assets/footer-bg.png");
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 100 200px 100 200px;
+    width: 100%;
+}
+footer h1 {
+    font-size: 100px;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li img {
+    position: relative;
+    top: 3px;
+}
+span {
+    background: linear-gradient(to right, #ec4899, #d946ef, #9333ea);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
